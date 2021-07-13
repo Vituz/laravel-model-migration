@@ -1,0 +1,31 @@
+.nav_menu {
+    display: flex;
+    align-items: center;
+
+    .logo {
+        img {
+            width: 13rem;
+        }
+    }
+
+    .menu {
+
+        margin-left: 2rem;
+
+        li {
+            display: inline-block;
+            padding: 1rem;
+            border-radius: 2rem;
+
+            a {
+                font-size: 1.5rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: $txt_primary;
+                margin: 0 2rem;
+                padding: 1rem 0;
+            }
+        }
+    }
+
+}
