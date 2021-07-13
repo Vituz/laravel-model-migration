@@ -13,5 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', 'PageController@index')->name('home');
 Route::get('/packages', 'PackageController@index')->name('packages');
+Route::get('/packages/{id}', 'PackageController@show')->name('pack');

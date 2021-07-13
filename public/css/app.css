@@ -25,6 +25,12 @@ li {
   list-style: none;
 }
 
+.just_center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .nav_menu {
   display: flex;
   align-items: center;
@@ -47,4 +53,117 @@ li {
   color: #2962ff;
   margin: 0 2rem;
   padding: 1rem 0;
+}
+
+.jumbotron {
+  height: 25rem;
+  background-image: url("../img/jumbo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#site_main {
+  background-color: #90caf9;
+  padding: 3rem;
+}
+
+.card {
+  display: flex;
+  width: 70%;
+  height: 20rem;
+  margin: 2rem;
+  background-color: white;
+  border: 1px solid #2962ff;
+  border-radius: 2rem;
+  box-shadow: 4px 5px 10px lightgrey;
+}
+.card img {
+  height: 100%;
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 2rem 0 0 2rem;
+}
+.card .card_content {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .card_content a {
+  margin: 4rem 2rem 0 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #90caf9;
+  font-size: 2rem;
+  color: #2962ff;
+  font-weight: 600;
+}
+.card .card_content h3 {
+  margin: 1.6rem;
+  text-align: right;
+}
+.card .card_content h3 span {
+  color: #2962ff;
+}
+
+.pack_card {
+  border-radius: 2rem;
+  border: 2px solid #2962ff;
+  background-color: white;
+}
+.pack_card img {
+  border-radius: 2rem 2rem 0 0;
+  width: 100%;
+  border-bottom: 2px solid #2962ff;
+}
+.pack_card .pack_content {
+  display: flex;
+}
+.pack_card .pack_content .left,
+.pack_card .pack_content .right {
+  margin: 2rem;
+}
+.pack_card .pack_content .left {
+  width: 30%;
+  border-right: 2px solid #90caf9;
+}
+.pack_card .pack_content .left h2 {
+  color: #2962ff;
+  text-align: center;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #90caf9;
+  padding-bottom: 1rem;
+}
+.pack_card .pack_content .left h3 {
+  padding: 2rem 0;
+  margin: 0 1rem;
+}
+.pack_card .pack_content .left :nth-child(3) {
+  border-top: 2px solid #90caf9;
+  border-bottom: 2px solid #90caf9;
+}
+.pack_card .pack_content .right {
+  width: 70%;
+}
+.pack_card .pack_content .right h3 {
+  text-align: center;
+  color: #2962ff;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.pack_card .pack_content .right p {
+  padding: 1rem 2rem;
+  border-top: 2px solid #90caf9;
+  border-bottom: 2px solid #90caf9;
+}
+.pack_card .pack_content .right h4 {
+  text-align: right;
+  margin-top: 2rem;
+}
+.pack_card .pack_content .right h4 span {
+  color: #2962ff;
 }

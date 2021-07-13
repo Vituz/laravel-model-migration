@@ -28,3 +28,10 @@ a {
 li {
     list-style: none;
 }
+
+
+.just_center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

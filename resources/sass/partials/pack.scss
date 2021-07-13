@@ -1,0 +1,71 @@
+.pack_card {
+    border-radius: 2rem;
+    border: 2px solid $txt_primary;
+    background-color: white;
+
+
+    img {
+        border-radius: 2rem 2rem 0 0;
+        width: 100%;
+        border-bottom: 2px solid $txt_primary;
+    }
+
+    .pack_content {
+        display: flex;
+
+        .left,
+        .right {
+            margin: 2rem;
+        }
+
+        .left {
+            width: 30%;
+            border-right: 2px solid $color_primary;
+
+            h2 {
+                color: $txt_primary;
+                text-align: center;
+                font-size: 1.8rem;
+                border-bottom: 2px solid $color_primary;
+                padding-bottom: 1rem;
+            }
+
+            h3 {
+                padding: 2rem 0;
+                margin: 0 1rem;
+            }
+
+            :nth-child(3) {
+                border-top: 2px solid $color_primary;
+                border-bottom: 2px solid $color_primary;
+            }
+        }
+
+        .right {
+            width: 70%;
+
+            h3 {
+                text-align: center;
+                color: $txt_primary;
+                margin-bottom: 2rem;
+                font-size: 2rem;
+                font-weight: 600;
+            }
+
+            p {
+                padding: 1rem 2rem;
+                border-top: 2px solid $color_primary;
+                border-bottom: 2px solid $color_primary;
+            }
+
+            h4 {
+                text-align: right;
+                margin-top: 2rem;
+
+                span {
+                    color: $txt_primary;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+#site_main {
+    background-color: $color_primary;
+    padding: 3rem;
+}
+
+.card {
+    display: flex;
+    width: 70%;
+    height: 20rem;
+    margin: 2rem;
+    background-color: white;
+    border: 1px solid $txt_primary;
+    border-radius: 2rem;
+    box-shadow: 4px 5px 10px lightgrey;
+
+    img {
+        height: 100%;
+        width: 50%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 2rem 0 0 2rem;
+
+    }
+
+    .card_content {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        a {
+            margin: 4rem 2rem 0 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid $color_primary;
+            font-size: 2rem;
+            color: $txt_primary;
+            font-weight: 600;
+        }
+
+        h3 {
+            margin: 1.6rem;
+            text-align: right;
+
+            span {
+                color: $txt_primary;
+            }
+        }
+    }
+}
